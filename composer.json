@@ -1,0 +1,23 @@
+{
+    "name": "antonio/bienesraices",
+    "description": "Proyecto POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Antonio Torrejon",
+            "email": "correo@correo.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modelos\\" : "./modelos",
+            "MVC\\" : "./",
+            "Controladores\\" : "./controladores",
+            "PHPMailer\\" : "./"
+        }
+    }
+}
